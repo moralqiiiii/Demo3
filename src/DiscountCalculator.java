@@ -11,8 +11,8 @@ public class DiscountCalculator {
      * @param discountPercentage (Persentase Diskon)
      * @return
      */
-    private static double getaDouble(double originalPrice, double discountPercentage) {
-        return originalPrice - (originalPrice * discountPercentage / persentase);
+   private static double getaDouble(double originalPrice, double discountPercentage) {
+       return originalPrice - (originalPrice * discountPercentage / persentase);
     }
 
 }
